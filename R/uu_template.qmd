@@ -1,7 +1,4 @@
----
-title: "Presentation title"
-date: "14-9-2022"
-author: "John Doe"
+--- 
 format: 
   revealjs:
     theme: uu.scss
