@@ -1,8 +1,23 @@
-# uu-quarto-presentation-template
-Template repository for creating a UU styled Quarto presentation
+# UU Quarto presentation template
 
-[Template presentation](https://utrechtuniversity.github.io/uu-quarto-presentation-template/R/uu_template.html)
+This is a template repository for creating a UU styled Quarto presentation. Quarto is an open source publishing system for creating (documentation) websites, presentations and books. Quarto allows you to write content using markdown, and you can create dynamic content using (among others) R and Python. Quarto will render your markdown(`.qmd`) or e.g. notebooks (`.ipynb`) to HTML, PDF, and more. 
 
+This repository contains [UU themed presentation example slides] written in `.qmd` files.
+
+[Template presentation](https://utrechtuniversity.github.io/uu-quarto-presentation-template/presentations/uu_template.html)
+
+## Getting Started:
+
+- [Install Quarto](https://quarto.org/docs/get-started/)
+- Click the green 'Use this template' button in the top right corner of this screen
+- Choose your personal github account as 'Owner'.
+- Clone the new repository to your PC
+- Go to the presentations folder and rename `uu_template.qmd`
+- Open the `.qmd` file in RStudio or VS Code and start working on your presentation. 
+- Both [Rstudio](https://quarto.org/docs/get-started/hello/rstudio.html) and [VS Code](https://quarto.org/docs/get-started/hello/vscode.html) have Quarto extensions that can be installed and used to render and preview your presentation on your PC.
+- Commit and push your changes to GitHub and use GitHub pages to publish your presentation.
+
+Check [quarto.org](https://quarto.org/) for extended documentation on how to get started.
 
 <!-- CONTRIBUTING -->
 ## Contributing
