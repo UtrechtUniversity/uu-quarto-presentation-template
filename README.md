@@ -1,10 +1,10 @@
 # UU Quarto presentation template
 
-This is a template repository for creating a UU styled Quarto presentation. Quarto is an open source publishing system for creating (documentation) websites, presentations and books. Quarto allows you to write content using markdown, and you can create dynamic content using (among others) R and Python. Quarto will render your markdown(`.qmd`) or e.g. notebooks (`.ipynb`) to HTML, PDF, and more. 
+This is a template repository for creating a UU styled Quarto presentation. Quarto is an open source publishing system for creating (documentation) websites, presentations and books. Quarto allows you to write content using markdown, and you can create dynamic content using (among others) R and Python. Quarto will render your markdown(`.qmd`) or e.g. notebooks (`.ipynb`) to HTML, PDF, and more. The repository includes a GitHub actions workflow to automatically render your presentation to HTML and publish it to GitHub pages.
 
 This repository contains [UU themed presentation example slides] written in `.qmd` files.
 
-[Template presentation](https://utrechtuniversity.github.io/uu-quarto-presentation-template/presentations/uu_template.html)
+[Template presentation](https://utrechtuniversity.github.io/uu-quarto-presentation-template/uu_template)
 
 ## Getting Started:
 
@@ -14,8 +14,12 @@ This repository contains [UU themed presentation example slides] written in `.qm
 - Clone the new repository to your PC
 - Go to the presentations folder and rename `uu_template.qmd`
 - Open the `.qmd` file in RStudio or VS Code and start working on your presentation. 
-- Both [Rstudio](https://quarto.org/docs/get-started/hello/rstudio.html) and [VS Code](https://quarto.org/docs/get-started/hello/vscode.html) have Quarto extensions that can be installed and used to render and preview your presentation on your PC.
-- Commit and push your changes to GitHub and use GitHub pages to publish your presentation.
+- Both [Rstudio](https://quarto.org/docs/get-started/hello/rstudio.html) and [VS Code](https://quarto.org/docs/get-started/hello/vscode.html) have Quarto extensions that can be installed and used to preview your presentation on your PC.
+- Commit and push your changes to GitHub.
+
+## Setting up GitHub Pages for your presentation:
+
+Under *Settings* → *Pages* → *Build and deployment* the source must be switched to "GitHub Action". See this blog post for more information about [Quarto and GitHub pages](https://tarleb.com/posts/quarto-with-gh-pages/). 
 
 Check [quarto.org](https://quarto.org/) for extended documentation on how to get started.
 

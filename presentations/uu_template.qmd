@@ -1,18 +1,18 @@
 --- 
 format: 
   revealjs:
-    theme: uu.scss
-    logo: UU_logo_2021_EN_RGB.png
+    theme: themes/uu.scss
+    logo: images/UU_logo_2021_EN_RGB.png
     footer: "John Doe"
 ---
 
 # Presentation title {data-background-color="#FFCD00"}
 
-![](UU_logo_2021_EN_RGB.png){.absolute bottom=320 left=-240 width="300" height="120"}
+![](images/UU_logo_2021_EN_RGB.png){.absolute bottom=320 left=-240 width="300" height="120"}
 
 # {data-background-color="#FFCD00"}
 
-![](UU_logo_2021_EN_RGB.png){.absolute bottom=-100 left=-240 width="300" height="120"}
+![](images/UU_logo_2021_EN_RGB.png){.absolute bottom=-100 left=-240 width="300" height="120"}
 
 :::::::::::::: {.columns}
 
@@ -25,7 +25,7 @@ Title
 :::
 :::
 ::: {.column width="60%"}
-![](image.jpg){fig-align="right" width="300"}
+![](images/image.jpg){fig-align="right" width="300"}
 :::
 ::::::::::::::
 
@@ -145,4 +145,4 @@ Learn more: [Multiple Columns](https://quarto.org/docs/presentations/revealjs/#m
 
 # {data-background-color="#FFCD00"}
 
-![](UU_logo_2021_EN_RGB_payoff.png)
+![](images/UU_logo_2021_EN_RGB_payoff.png)

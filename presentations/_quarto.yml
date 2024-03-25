@@ -1,0 +1,4 @@
+project:
+  output-dir: _presentation
+  render:
+    - "*.qmd"
