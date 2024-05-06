@@ -8,9 +8,19 @@ $font-family-sans-serif: 'Open Sans', Tahoma, sans-serif !default;
 // headings
 $presentation-heading-font: 'Merriweather',  Tahoma, sans-serif  !default;
 $presentation-heading-color: #000000 !default;
-$h1-font-size: 1.6em !default;
+$presentation-h1-font-size: 1.2em !default;
 $h2-font-size: 1.3em !default;
 $h3-font-size: 1.15em !default;
+
+section.slide h1 {
+  margin-left: 5vw;
+}
+
+.theme-section {
+  text-align: left;
+  margin-top: 1.2em;
+  margin-left: 5vw;
+}
 
 //code
 $code-color: #883080 !default;
@@ -25,9 +35,14 @@ $presentation-font-size-root: 35px;
 /*-- scss:rules --*/
 .reveal pre code {
   background-color: #FFFFFF;
-  font-size: 1em;
-  padding: 0.5em;
-  line-height: 1.2em;
+  font-size: 0.8em;
+  padding: 0.4em;
+  margin: 0.2em;
+}
+
+
+.cell {
+  margin: 1em; // This adds spacing of 1em around the code cells
 }
 
 
