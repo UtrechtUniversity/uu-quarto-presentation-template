@@ -34,18 +34,19 @@ Title
 
 
 ## Quarto
-::: {style="text-align: left; margin-top: 2em"}
+::: {.theme-section}
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 :::
 
 ## Bullets
-::: {style="text-align: left; margin-top: 2em"}
+::: {.theme-section}
 When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
 :::
 ## Line Highlighting
+::: {.theme-section}
 
 -   Highlight specific lines for emphasis
 -   Incrementally highlight additional lines
@@ -61,12 +62,14 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
-
+:::
 ::: footer
 Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#line-highlighting)
 :::
 
 ## Executable Code
+
+::: {.theme-section}
 
 ```{r}
 #| echo: true
@@ -75,15 +78,19 @@ Learn more: [Line Highlighting](https://quarto.org/docs/presentations/revealjs/#
 plot(cars)
 ```
 
+:::
+
 ::: footer
 Learn more: [Executable Code](https://quarto.org/docs/presentations/revealjs/#executable-code)
 :::
 
 ## LaTeX Equations
 
+::: {.theme-section}
+
 [MathJax](https://www.mathjax.org/) rendering of equations to HTML
 
-::: columns
+:::: columns
 ::: {.column width="40%"}
 ``` tex
 \begin{gather*}
@@ -115,6 +122,7 @@ a_{21}& =b_{21}&
 \end{align}
 ```
 :::
+::::
 :::
 
 ::: footer
@@ -123,9 +131,11 @@ Learn more: [LaTeX Equations](https://quarto.org/docs/authoring/markdown-basics.
 
 ## Column Layout {.smaller}
 
+::: {.theme-section}
+
 Arrange content into columns of varying widths:
 
-::: columns
+:::: columns
 ::: {.column width="35%"}
 #### Motor Trend Car Road Tests
 
@@ -140,7 +150,9 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 plot(cars)
 ```
 :::
-:::
+::::
+::: {.theme-section}
+
 
 ::: footer
 Learn more: [Multiple Columns](https://quarto.org/docs/presentations/revealjs/#multiple-columns)
