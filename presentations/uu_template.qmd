@@ -8,9 +8,9 @@ format:
 
 # Presentation title {data-background-color="#FFCD00"}
 
+::: {.r-stack}
 Presentation subtitle
-
-![](images/UU_logo_2021_EN_RGB.png){.absolute bottom=320 left=-240 width="300" height="120"}
+:::
 
 ::: {.footer}
 :::
@@ -151,7 +151,7 @@ plot(cars)
 ```
 :::
 ::::
-::: {.theme-section}
+::: 
 
 
 ::: footer
